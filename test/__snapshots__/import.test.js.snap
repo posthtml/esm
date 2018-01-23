@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Import Defaults src 1`] = `
+"\${HTML__IMPORT__0}
+\${HTML__IMPORT__1}
+"
+`;
+
+exports[`Import Defaults src 2`] = `
+Array [
+  Object {
+    "import": [Function],
+    "name": "HTML__IMPORT__0",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./import.html",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__IMPORT__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/import.html",
+  },
+]
+`;
+
+exports[`Import Filter src 1`] = `
+"\${HTML__IMPORT__0}
+
+"
+`;
+
+exports[`Import Filter src 2`] = `
+Array [
+  Object {
+    "import": [Function],
+    "name": "HTML__IMPORT__0",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./import.html",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__IMPORT__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/import.html",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__IMPORT__0",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./import.html",
+  },
+]
+`;

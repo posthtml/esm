@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`URLs Defaults href 1`] = `
+"<link href=\\"\${HTML__URL__0}\\">
+<link href=\\"\${HTML__URL__1}\\">
+"
+`;
+
+exports[`URLs Defaults href 2`] = `
+Array [
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./file.css",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./filter/file.css",
+  },
+]
+`;
+
+exports[`URLs Defaults src 1`] = `
+"<img src=\\"\${HTML__URL__0}\\">
+<img src=\\"\${HTML__URL__1}\\">
+"
+`;
+
+exports[`URLs Defaults src 2`] = `
+Array [
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/file.png",
+  },
+]
+`;
+
+exports[`URLs Defaults srcset 1`] = `
+"​<picture>
+  <source srcset=\\"\${HTML__URL__0}\\" type=\\"image/svg+xml\\">
+  <img src=\\"\${HTML__URL__1}\\" alt=\\"Image\\">
+</picture>
+
+​<picture>
+  <source srcset=\\"\${HTML__URL__2}\\" type=\\"image/svg+xml\\">
+  <img src=\\"\${HTML__URL__3}\\" alt=\\"Image\\">
+</picture>
+"
+`;
+
+exports[`URLs Defaults srcset 2`] = `
+Array [
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./file.css",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./filter/file.css",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./file.svg",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__2",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./filter/file.svg",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__3",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/file.png",
+  },
+]
+`;
+
+exports[`URLs Filter href 1`] = `
+"<link href=\\"\${HTML__URL__0}\\">
+<link href=\\"./filter/file.css\\">
+"
+`;
+
+exports[`URLs Filter href 2`] = `
+Array [
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./file.css",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./filter/file.css",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./file.svg",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__2",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./filter/file.svg",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__3",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./file.css",
+  },
+]
+`;
+
+exports[`URLs Filter src 1`] = `
+"<img src=\\"\${HTML__URL__0}\\">
+<img src=\\"./filter/file.png\\">
+"
+`;
+
+exports[`URLs Filter src 2`] = `
+Array [
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./file.css",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./filter/file.css",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./file.svg",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__2",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./filter/file.svg",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__3",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+]
+`;
+
+exports[`URLs Filter srcset 1`] = `
+"​<picture>
+  <source srcset=\\"\${HTML__URL__0}\\" type=\\"image/svg+xml\\">
+  <img src=\\"\${HTML__URL__1}\\" alt=\\"Image\\">
+</picture>
+
+​<picture>
+  <source srcset=\\"\${HTML__URL__2}\\" type=\\"image/svg+xml\\">
+  <img src=\\"\${HTML__URL__3}\\" alt=\\"Image\\">
+</picture>
+"
+`;
+
+exports[`URLs Filter srcset 2`] = `
+Array [
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./file.css",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./filter/file.css",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./file.svg",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__2",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./filter/file.svg",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__3",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./file.css",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__0",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./file.svg",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__1",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./file.png",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__2",
+    "plugin": "@posthtml/esm (URL)",
+    "type": "import",
+    "url": "./filter/file.svg",
+  },
+  Object {
+    "import": [Function],
+    "name": "HTML__URL__3",
+    "plugin": "@posthtml/esm",
+    "type": "import",
+    "url": "./filter/file.png",
+  },
+]
+`;
