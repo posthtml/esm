@@ -1,0 +1,11 @@
+.gitignore
+.travis.yml
+.editorconfig
+
+npm-debug.log
+
+.nyc_output
+
+test
+coverage
+node_modules
